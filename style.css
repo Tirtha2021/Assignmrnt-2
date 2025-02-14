@@ -1,8 +1,352 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
 
 .quicksand-font {
     font-family: "Quicksand", serif;
     font-optical-sizing: auto;
     font-style: normal;
-  }
+}
+
+/* shared part style */
+
+.disply-flex {
+    display: flex;
+}
+
+.orange-clr {
+    color: #FEA301;
+}
+
+.orange-bgc {
+    background-color: #FEA301;
+}
+
+.skyblue-clr {
+    color: #01ACFD;
+}
+
+.skyblue-bgc {
+    background-color: #01ACFD;
+}
+
+.blue-clr {
+    color: #05D4DF;
+}
+
+.blue-bgc {
+    background-color: #05D4DF;
+}
+
+.indigo-clr {
+    color: #5D58EF;
+}
+
+.indigo-bgc {
+    background-color: #5D58EF;
+}
+
+.white-clr {
+    color: #f7f7f7;
+}
+
+.white-bgc {
+    background-color: #f7f7f7;
+}
+
+.black-clr {
+    color: #111111;
+}
+
+.black-bgc {
+    background-color: #111111;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 2.87rem;
+    text-align: center;
+}
+
+.des-text {
+    font-weight: 500;
+    font-size: 0.99rem;
+    line-height: 1.75rem;
+    color: #808080;
+}
+
+/* header part */
+header {
+    padding: 0 140px;
+    margin: 0 auto;
+}
+
+/* navbar style start */
+nav {
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.doll-img {
+    align-items: center;
+    justify-content: space-between;
+    gap: 11px;
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+/* link style */
+.nav-link {
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.under-nav-link {
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.under-nav-link:hover {
+    font-weight: 700;
+}
+
+.for-home {
+    font-weight: 700;
+}
+
+.for-home:hover {
+    font-weight: 500;
+}
+
+.nav-btn {
+    padding: 10px 60px;
+    font-weight: 600;
+    font-size: 1.25rem;
+    border: 1px solid #f0aa00;
+    border-radius: 12px;
+}
+
+.nav-btn:hover {
+    background-color: #ffff;
+    color: #f0aa00;
+    transition: 0.7s;
+}
+
+.var-icon i {
+    font-size: 2.1rem;
+}
+
+/* banner style start */
+.banner {
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.banner-content {
+    margin: 122px 0 100px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 3.81rem;
+    margin-bottom: 24px;
+}
+
+.banner-btn {
+    padding: 10px 47px;
+    font-weight: 700;
+    font-size: 1.25rem;
+    border: 1px solid gray;
+    border-radius: 12px;
+    margin-top: 24px;
+
+}
+
+.banner-btn:hover {
+    background-color: #fff;
+    color: #111111;
+    transition: 0.3s;
+}
+
+/* Curriculum part start */
+.curriculum {
+    padding: 0 140px;
+    margin: 0 auto;
+    background-image: url(./assets/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.curriculum-type {
+    padding: 80px 0;
+}
+
+.curriculum-card {
+    gap: 28px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.under-the-card {
+    background-image: linear-gradient(180deg, #DEF5FF, #FFFFFF);
+    text-align: center;
+    padding: 50px 40px;
+    border-radius: 18.86px;
+    box-shadow: #def5ff 0px 1px 1px 1px;
+}
+
+.card-2-bg {
+    background-image: linear-gradient(180deg, #FFF4DC, #ffff);
+    box-shadow: #fff4dc 0px 1px 1px 1px;
+}
+
+.card-3-bg {
+    background-image: linear-gradient(180deg, #eee1ff, #ffff);
+    box-shadow: #eee1ff 0px 1px 1px 1px;
+}
+
+.curriculum-card-title {
+    font-weight: 700;
+    font-size: 1.53rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.read-more {
+    padding-top: 28px;
+    font-weight: 700;
+    font-size: 0.99rem;
+    color: #64c8ff;
+}
+.color-2{
+    color: #F0AA00;
+}
+.color-3{
+    color: #8700FF;
+}
+.curriculum-icon{
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 80px 0 60px;
+}
+.sign{
+    width: 60px;
+    height: 60px;
+    background-color: orange; 
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    transition: background 0.3s ease;
+}
+.sign:hover {
+    background-color: #e69500;
+    transition: .8s;
+}
+
+/* curriculum part end */
+
+/* for mobile device */
+@media screen and (max-width:576px) {
+    header {
+        padding: 0;
+    }
+
+    /* nav style start */
+    .nav-title,
+    .nav-link,
+    .nav-btn {
+        display: none;
+    }
+
+    nav {
+        padding: 0;
+    }
+
+    .var-icon {
+        display: initial;
+    }
+
+    .doll-img {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 0.6px solid orange;
+        padding: 12px 20px;
+        gap: 287px;
+    }
+
+    /* nav style end */
+
+    /* banner style start */
+    .banner {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 12px 16px;
+    }
+
+    .banner-img {
+        width: 100%;
+    }
+
+    .banner-content {
+        margin: 0;
+    }
+    .banner-title {
+        font-size: 2.4rem;
+        line-height: 2.6rem;
+        margin-bottom: 10px;
+    }
+
+    /* header part end */
+
+    /* main part start here */
+    /* curriculam start */
+    .curriculum {
+        padding: 0 16px;
+    }
+    .curriculum-type {
+        padding: 40px 0 20px;
+    }
+    .curriculam-title {
+        font-size: 1.8rem;
+    }
+    .curriculum-card {
+        flex-direction: column;
+        gap: 12px;
+        padding: 20px 0;
+    }
+    .under-the-card {
+        padding: 36px 50px;
+    }
+    .curriculum-icon {
+        display: none;
+    }
+}
