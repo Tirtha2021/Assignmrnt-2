@@ -454,13 +454,13 @@ nav {
 
 .footer-name {
     font-weight: 700;
-    font-size: 2.10rem;
+    font-size: 2.62rem;
     line-height: 2.3rem;
 }
 
-.footer-nav-link {
+/* .footer-nav-link {
     margin-bottom: 70px;
-}
+} */
 
 .footer-nav-link-title {
     font-weight: 700;
@@ -481,13 +481,13 @@ nav {
 
 
 .footer-icon {
-    margin-bottom: 180px;
+    margin-bottom: 136px;
 }
 
 .footer-icon-title {
     font-weight: 700;
     font-size: 1.5rem;
-    margin-bottom: 32px;
+    margin-bottom: 15px;
 }
 
 .icon-img {
