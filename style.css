@@ -376,7 +376,7 @@ nav {
     position: absolute;
     bottom: 85px;
     left: 38px;
-    padding: 18px 9px;
+    padding: 10px 9px;
     background-color: #95b226;
     font-weight: 500;
     font-size: 0.99rem;
@@ -406,22 +406,88 @@ nav {
     display: flex;
     justify-content: center;
 }
-.story-btn{
+
+.story-btn {
     padding: 10px 60px;
     font-weight: 700;
     font-size: 1.25rem;
     border: none;
     border-radius: 16px;
 }
-.story-btn:hover{
+
+.story-btn:hover {
     background-color: #ffffff96;
     color: #000000;
     transition: 0.5s;
 }
+
 /* story section end */
 /* main part finish */
 
+/* footer part start */
+.last-part {
+    background-color: #01acfd;
+    padding: 123px 228px 74px 140px;
+    margin: 0 auto;
+    color: #fff;
+}
 
+.footer-content {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-footer-logo {
+    width: 400px;
+}
+
+.logo-name {
+    gap: 10px;
+    margin-bottom: 35px;
+}
+
+.footer-name {
+    font-weight: 700;
+    font-size: 2.10rem;
+    line-height: 2.3rem;
+}
+
+.footer-nav-link {
+    margin-bottom: 70px;
+}
+
+.footer-nav-link-title {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 32px;
+}
+
+.footer-nav {
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.footer-link {
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+
+.footer-icon {
+    margin-bottom: 180px;
+}
+
+.footer-icon-title {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 32px;
+}
+
+.icon-img {
+    justify-content: space-between;
+    gap: 15px;
+}
 
 
 
@@ -514,48 +580,79 @@ nav {
 
 
     /* story part start */
-    .story{
+    .story {
         padding: 0 16px;
         margin: 0 auto;
     }
-    .story-head{
+
+    .story-head {
         padding: 40px 0 20px;
     }
-    .story-title{
+
+    .story-title {
         font-size: 1.8rem;
     }
-    .big-story-card{
+
+    .big-story-card {
         display: none;
     }
-    .small-story-card-img{
+
+    .small-story-card-img {
         width: 100%;
     }
-    .small-storr-date-btn{
+
+    .small-storr-date-btn {
         bottom: 50px;
         left: 20px;
         padding: 6px 12px;
         font-weight: 500;
         font-size: 0.7rem;
     }
-    .small-story-card-title{
+
+    .small-story-card-title {
         padding: 11px 22px 28px;
         font-weight: 700;
         font-size: 0.57rem;
     }
+
     .small-story-card-title {
         font-family: 'Quicksand', sans-serif;
     }
-    .view-all-btn{
+
+    .view-all-btn {
         width: 134px;
         height: 30px;
         padding: 20px 127px 40px;
         margin: 0 auto;
     }
-    .story-btn{
+
+    .story-btn {
         padding: 7px 37px;
         font-weight: 700;
         font-size: 1rem;
     }
 
     /* main part end */
+
+    /* footer part start */
+    .last-part {
+        padding: 60px 16px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .about-footer-logo {
+        width: auto;
+    }
+
+    .footer-nav-link {
+        margin: 32px 0;
+    }
+
+    .footer-icon {
+        margin-bottom: 0;
+    }
 }
